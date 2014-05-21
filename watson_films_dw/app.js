@@ -25,8 +25,8 @@ if ('development' == app.get('env')) {
 app.use("/", express.static(__dirname + '/public'));
 
 // Set up RESTful resources
-var service = require('./service/service');
-app.post('/question', service.question);
+var watson = require('./watson/watson');
+app.post('/question', watson.question);
 
 // Start the http server
 http.createServer(app).listen(app.get('port'), function() {
