@@ -2,7 +2,7 @@
 var endpoint = {
     host : '', // enter watson host name
     instance : '', // enter watson instance name
-    auth : '' // enter authentication info
+    auth : '' // enter authentication info; e.g: 'Basic c29tZXVzZXJpZDpzb21lcGFzc3dvcmQ='
 };
 
 
