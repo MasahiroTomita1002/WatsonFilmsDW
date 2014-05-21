@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <!-- Safe Software, 2013 -->
+    <!-- http://www.safe.com -->
+
+    <title>Twitter Streaming Using Node</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Google Maps -->
+    <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+
+    <!-- Generic -->
+    <link rel="stylesheet" href="itwit.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="map_canvas"></div>
+    </div>
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="jquery/jquery-2.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="itwit.js"></script>
+    <script>
+        $(function() {
+            WatsonFilms.Twitter.updateMap();
+        });
+    </script>
+</body>
+</html>
