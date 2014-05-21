@@ -24,8 +24,10 @@ if ('development' == app.get('env')) {
 // Expose static web page resources
 app.use("/", express.static(__dirname + '/public'));
 
-// Set up RESTful resources
+// Get access to our Watson module
 var watson = require('./watson/watson');
+// Set up RESTful resources
+// POST requests to /question are handled by ‘watson.question’
 app.post('/question', watson.question);
 
 // Start the http server
