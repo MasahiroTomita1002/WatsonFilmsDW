@@ -35,7 +35,7 @@ exports.question = function(req, res) {
         'method' : "POST",
         'headers' : {
             'Content-Type' : 'application/json;charset=utf-8',
-            'X-SyncTimeout' : 60,
+            'X-SyncTimeout' : 30,
             'Authorization' : endpoint.auth
         },
         'json' : questionEntity,
