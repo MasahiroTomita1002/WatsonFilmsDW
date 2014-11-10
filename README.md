@@ -10,4 +10,4 @@ Technologies utilized:
 - [jquery](http://jquery.com/)
 - [slick](http://kenwheeler.github.io/slick/)
 
-License (see License.txt)
+License (see [License.txt](License.txt))
