@@ -1,4 +1,8 @@
+#Watson Films Sample App
+
 Sample Node.js application that invokes the Watson QAAPI.
+
+A full description of the app is described in the developerWorks article, **[Create a natural language question answering system with IBM Watson and Bluemix services](http://www.ibm.com/developerworks/cloud/library/cl-watson-films-bluemix-app/)** by Swami Chandrasekaran and Carmine DiMascio.
 
 Technologies utilized:
 - [Node.js](http://nodejs.org/)
