@@ -1,14 +1,14 @@
 // Describe the Watson Endpoint
-// Specify the information and credentials pertinent to your Watson instance
+// Specify the information and credentials pertinent to your Watson instance https://api.ng.bluemix.net
 var endpoint = {
-    // enter watson host name; e.g: 'http://www.myhost.com'
-    host : '',
+    // enter watson host name; e.g: 'http://www.myhost.com' https://api.ng.bluemix.net
+    host : 'https://api.ng.bluemix.net',//
     
-    // enter watson instance name; e.g: '/deepqa/v1/question'
-    instance : '',
+    // enter watson instance name; e.g: '/deepqa/v1/question' /question-and-answer-beta/api/v1/question /Question-and-Answer-vt/api/v1/question /watsonfilmsqa/v1/question
+    instance : '/instance/1/deepqa/v1/question',//instance/1/deepqa/v1/question
     
-    // enter authentication info; e.g: 'Basic c29tZXVzZXJpZDpzb21lcGFzc3dvcmQ='
-    auth : ''
+    // enter authentication info; e.g: 'Basic c29tZXVzZXJpZDpzb21lcGFzc3dvcmQ=' Basic dG9taXRhMTBheXUwN0BnbWFpbC5jb206aGFtYTEwMDI=
+    auth : 'Basic dG9taXRhMTBheXUwN0BnbWFpbC5jb206aGFtYTEwMDI='//
 };
 
 
